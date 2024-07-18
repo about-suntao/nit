@@ -4,7 +4,6 @@ export default function Home() {
   return (
     <main>
       {/* <Banner></Banner> */}
-      <p>dfsdafsd</p>
     </main>
   )
 }

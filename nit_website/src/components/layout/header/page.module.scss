@@ -3,44 +3,56 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #59141d;
-        height: 100px;
+        background-color: #054391;
+        height: 6.25rem;
         .container {
-            width: 87.5rem;
+            width: 80rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
             .logoImg {
                 color: white;
                 img {
-                    width: 19.56rem;
-                    height: 3.63rem;
+                    width: 4.69rem;
+                    height: 4.69rem;
                 }
             }
             .menu {
+                height: 6.25rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
                 :global {
                     .ant-menu-horizontal {
                         border-bottom: none;
+                        height: 6.25rem;
+                    }
+                    .ant-menu-submenu-title {
+                        height: 6.25rem;
+                        display: flex;
+                        align-items: center;
                     }
                     .ant-menu-title-content {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: bold;
-                        font-size: 18px;
+                        font-size: 1.13rem;
                         color: #ffffff;
-                        line-height: 29px;
+                        line-height: 1.8rem;
                         letter-spacing: 1px;
-                        text-align: justified;
+                        text-align: justify;
                     }
                     .ant-menu-light {
                         background-color: transparent;
                     }
                     .ant-menu-title-content:hover {
-                        color: #f7c41c;
                         font-weight: bold;
                     }
+                    .ant-menu-item:hover {
+                        border-bottom: 0.3rem solid white;
+                    }
                     .ant-menu-item-selected {
+                        border-bottom: 0.3rem solid white;
                         .ant-menu-title-content {
-                            color: #f7c41c;
                             font-weight: bold;
                         }
                     }
@@ -53,16 +65,10 @@
                     }
                     // 有下拉菜单
                     .ant-menu-submenu:hover::after {
-                        border-bottom: none;
+                        border-bottom: 0.3rem solid white;
                     }
-                    .ant-menu-submenu::after {
-                        border-bottom: none;
-                    }
-                    .ant-menu-submenu-selected {
-                        .ant-menu-title-content {
-                            color: #f7c41c;
-                            font-weight: bold;
-                        }
+                    .ant-menu-submenu-selected::after {
+                        border-bottom: 0.3rem solid white;
                     }
                 }
                 ul {
@@ -88,17 +94,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #59141d;
-        height: 100px;
+        background-color: #054391;
+        height: 6.25rem;
         .container {
-            width: 90%;
+            width: 80%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             .logoImg {
                 color: white;
                 img {
-                    width: 18rem;
+                    width: 4.69rem;
                     height: auto;
                 }
             }
@@ -106,26 +112,34 @@
                 :global {
                     .ant-menu-horizontal {
                         border-bottom: none;
+                        height: 6.25rem;
+                    }
+                    .ant-menu-submenu-title {
+                        height: 6.25rem;
+                        display: flex;
+                        align-items: center;
                     }
                     .ant-menu-title-content {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: bold;
-                        font-size: 18px;
+                        font-size: 1.13rem;
                         color: #ffffff;
-                        line-height: 29px;
+                        line-height: 1.8rem;
                         letter-spacing: 1px;
-                        text-align: justified;
+                        text-align: justify;
                     }
                     .ant-menu-light {
                         background-color: transparent;
                     }
                     .ant-menu-title-content:hover {
-                        color: #f7c41c;
                         font-weight: bold;
                     }
+                    .ant-menu-item:hover {
+                        border-bottom: 0.3rem solid white;
+                    }
                     .ant-menu-item-selected {
+                        border-bottom: 0.3rem solid white;
                         .ant-menu-title-content {
-                            color: #f7c41c;
                             font-weight: bold;
                         }
                     }
@@ -137,17 +151,14 @@
                         border-bottom: none;
                     }
                     // 有下拉菜单
-                    .ant-menu-submenu:hover::after {
-                        border-bottom: none;
-                    }
                     .ant-menu-submenu::after {
                         border-bottom: none;
                     }
-                    .ant-menu-submenu-selected {
-                        .ant-menu-title-content {
-                            color: #f7c41c;
-                            font-weight: bold;
-                        }
+                    .ant-menu-submenu:hover::after {
+                        border-bottom: 0.3rem solid white;
+                    }
+                    .ant-menu-submenu-selected::after {
+                        border-bottom: 0.3rem solid white;
                     }
                 }
                 ul {
@@ -173,8 +184,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #59141d;
-        height: 100px;
+        background-color: #054391;
+        height: 6.25rem;
         .container {
             width: 90%;
             display: flex;
@@ -183,7 +194,7 @@
             .logoImg {
                 color: white;
                 img {
-                    width: 16rem;
+                    width: 4.69rem;
                     height: auto;
                 }
             }
@@ -191,26 +202,34 @@
                 :global {
                     .ant-menu-horizontal {
                         border-bottom: none;
+                        height: 6.25rem;
+                    }
+                    .ant-menu-submenu-title {
+                        height: 6.25rem;
+                        display: flex;
+                        align-items: center;
                     }
                     .ant-menu-title-content {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: bold;
-                        font-size: 16px;
+                        font-size: 1.13rem;
                         color: #ffffff;
-                        line-height: 29px;
+                        line-height: 1.8rem;
                         letter-spacing: 1px;
-                        text-align: justified;
+                        text-align: justify;
                     }
                     .ant-menu-light {
                         background-color: transparent;
                     }
                     .ant-menu-title-content:hover {
-                        color: #f7c41c;
                         font-weight: bold;
                     }
+                    .ant-menu-item:hover {
+                        border-bottom: 0.3rem solid white;
+                    }
                     .ant-menu-item-selected {
+                        border-bottom: 0.3rem solid white;
                         .ant-menu-title-content {
-                            color: #f7c41c;
                             font-weight: bold;
                         }
                     }
@@ -222,17 +241,104 @@
                         border-bottom: none;
                     }
                     // 有下拉菜单
-                    .ant-menu-submenu:hover::after {
-                        border-bottom: none;
-                    }
                     .ant-menu-submenu::after {
                         border-bottom: none;
                     }
-                    .ant-menu-submenu-selected {
+                    .ant-menu-submenu:hover::after {
+                        border-bottom: 0.3rem solid white;
+                    }
+                    .ant-menu-submenu-selected::after {
+                        border-bottom: 0.3rem solid white;
+                    }
+                }
+                ul {
+                    display: flex;
+                    list-style: none;
+                    li {
+                        width: 7.5rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+        .mobile {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #054391;
+        height: 6.25rem;
+        .container {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logoImg {
+                color: white;
+                img {
+                    width: 4.69rem;
+                    height: auto;
+                }
+            }
+            .menu {
+                :global {
+                    .ant-menu-horizontal {
+                        border-bottom: none;
+                        height: 6.25rem;
+                    }
+                    .ant-menu-submenu-title {
+                        height: 6.25rem;
+                        display: flex;
+                        align-items: center;
+                    }
+                    .ant-menu-title-content {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 1.13rem;
+                        color: #ffffff;
+                        line-height: 1.8rem;
+                        letter-spacing: 1px;
+                        text-align: justify;
+                    }
+                    .ant-menu-light {
+                        background-color: transparent;
+                    }
+                    .ant-menu-title-content:hover {
+                        font-weight: bold;
+                    }
+                    .ant-menu-item:hover {
+                        border-bottom: 0.3rem solid white;
+                    }
+                    .ant-menu-item-selected {
+                        border-bottom: 0.3rem solid white;
                         .ant-menu-title-content {
-                            color: #f7c41c;
                             font-weight: bold;
                         }
+                    }
+
+                    .ant-menu-item:hover::after {
+                        border-bottom: none;
+                    }
+                    .ant-menu-item::after {
+                        border-bottom: none;
+                    }
+                    // 有下拉菜单
+                    .ant-menu-submenu::after {
+                        border-bottom: none;
+                    }
+                    .ant-menu-submenu:hover::after {
+                        border-bottom: 0.3rem solid white;
+                    }
+                    .ant-menu-submenu-selected::after {
+                        border-bottom: 0.3rem solid white;
                     }
                 }
                 ul {
@@ -253,98 +359,13 @@
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1000px) {
-    .header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #59141d;
-        height: 100px;
-        .container {
-            width: 94%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            .logoImg {
-                color: white;
-                img {
-                    width: 14rem;
-                    height: auto;
-                }
-            }
-            .menu {
-                :global {
-                    .ant-menu-horizontal {
-                        border-bottom: none;
-                    }
-                    .ant-menu-title-content {
-                        font-family: Microsoft YaHei, sans-serif;
-                        font-weight: bold;
-                        font-size: 14px;
-                        color: #ffffff;
-                        line-height: 29px;
-                        letter-spacing: 1px;
-                        text-align: justified;
-                    }
-                    .ant-menu-light {
-                        background-color: transparent;
-                    }
-                    .ant-menu-title-content:hover {
-                        color: #f7c41c;
-                        font-weight: bold;
-                    }
-                    .ant-menu-item-selected {
-                        .ant-menu-title-content {
-                            color: #f7c41c;
-                            font-weight: bold;
-                        }
-                    }
-
-                    .ant-menu-item:hover::after {
-                        border-bottom: none;
-                    }
-                    .ant-menu-item::after {
-                        border-bottom: none;
-                    }
-                    // 有下拉菜单
-                    .ant-menu-submenu:hover::after {
-                        border-bottom: none;
-                    }
-                    .ant-menu-submenu::after {
-                        border-bottom: none;
-                    }
-                    .ant-menu-submenu-selected {
-                        .ant-menu-title-content {
-                            color: #f7c41c;
-                            font-weight: bold;
-                        }
-                    }
-                }
-                ul {
-                    display: flex;
-                    list-style: none;
-                    li {
-                        width: 6rem;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                    }
-                }
-            }
-        }
-        .mobile {
-            display: none;
-        }
-    }
-}
-
 @media screen and (max-width: 768px) {
     .header {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #59141d;
-        height: 60px;
+        background-color: #054391;
+        height: 4.5rem;
         .container {
             display: none;
         }
@@ -356,7 +377,7 @@
             .logoImg {
                 color: white;
                 img {
-                    width: 14rem;
+                    width: 3.5rem;
                     height: auto;
                 }
             }
@@ -380,7 +401,7 @@
                     }
                     .ant-drawer .ant-drawer-body {
                         padding: 0;
-                        background: #59141d;
+                        background: #054391;
                     }
                 }
                 .drawerNav {

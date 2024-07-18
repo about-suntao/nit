@@ -1,730 +1,600 @@
-@media screen and (min-width: 1501px) {
-    .footer {
-        width: 100%;
-        background: #0f0103;
-        height: 33.5rem;
+@media screen and (min-width: 1401px) {
+    .pages {
+        height: 27.5rem;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        flex-direction: column;
         .container {
-            width: 87.5rem;
-            padding-top: 2.69rem;
+            flex: 1;
+            width: 80rem;
             display: flex;
             justify-content: space-between;
-            .school {
-                .logo {
-                    width: 19.56rem;
-                    height: 3.63rem;
-                    img {
-                        width: 100%;
-                        height: 100%;
-                    }
-                }
-                .mark {
+            padding-top: 4rem;
+            .logo {
+                width: 15rem;
+                img {
                     width: 100%;
-                    margin-top: 1.44rem;
-                    margin-bottom: 1.25rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: bold;
-                    font-size: 1.5rem;
-                    color: #ffffff;
-                    line-height: 1.76rem;
-                    letter-spacing: 4px;
-                    text-align: center;
-                }
-                .qrBox {
-                    width: 100%;
-                    display: flex;
-                    .qrCode {
-                        margin-left: 1.56rem;
-                        img {
-                            width: 7.25rem;
-                            height: 7.25rem;
-                        }
-                        p {
-                            width: 100%;
-                            text-align: center;
-                            margin-top: 0.81rem;
-                            font-size: 1rem;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            color: #ffffff;
-                            line-height: 1.17rem;
-                        }
-                    }
+                    height: auto;
                 }
             }
-
-            .situation {
+            .title {
+                display: flex;
+                align-items: center;
                 h2 {
-                    margin-bottom: 1.81rem;
-                    font-size: 1.63rem;
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
-                    color: #ffffff;
-                    line-height: 1.9rem;
+                    font-size: 1.63rem;
+                    color: #010811;
+                    line-height: 2rem;
                 }
                 p {
-                    font-size: 1rem;
-                    font-family: Microsoft YaHei UI, sans-serif;
+                    margin-left: 1.5rem;
+                    font-family: Abhaya Libre, sans-serif;
                     font-weight: 400;
-                    color: #ffffff;
-                    line-height: 1.17rem;
-                    a {
-                        color: #ffffff;
-                        text-decoration: none;
-                    }
+                    font-size: 1.25rem;
+                    color: #010811;
+                    line-height: 2rem;
+                    letter-spacing: 1px;
                 }
-                p + p {
-                    margin-top: 1.25rem;
-                }
+            }
+            .line {
+                margin: 1.88rem 0;
+                width: 100%;
+                height: 0.12rem;
+                background-color: #78808a;
+                position: relative;
+            }
+            .line::before {
+                content: '';
+                width: 6.25rem;
+                height: 0.38rem;
+                position: absolute;
+                border-radius: 0.1rem;
+                left: 0;
+                top: -0.15rem;
+                background-color: #af0d21;
             }
             .contact {
-                h2 {
-                    margin-bottom: 0.88rem;
-                    font-size: 1.63rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: bold;
-                    color: #ffffff;
-                    line-height: 1.9rem;
-                }
-                .card + .card {
-                    margin-top: 2.19rem;
-                }
-                .card {
-                    margin-top: 1.81rem;
-                    p {
-                        font-size: 1.25rem;
-                        font-family: Microsoft YaHei, sans-serif;
-                        font-weight: bold;
-                        color: #ffffff;
-                        line-height: 1.46rem;
-                        .phoneIcon {
-                            display: inline-block;
-                            transform: rotate(95deg);
-                            margin-right: 0.4rem;
-                        }
+                margin-top: 0.5rem;
+                width: 27.25rem;
+                ul {
+                    list-style: none;
+                    li + li {
+                        margin-top: 1.88rem;
                     }
-                    .cardBody {
-                        margin-top: 0.88rem;
+                    li {
                         display: flex;
-                        .right {
-                            p {
-                                margin-top: 0;
-                                font-size: 1rem;
-                                font-family: Microsoft YaHei, sans-serif;
-                                font-weight: 400;
-                                color: #ffffff;
-                                line-height: 1.17rem;
-                            }
-                            p + p {
-                                margin-top: 0.63rem;
-                            }
+                        align-items: center;
+                        img {
+                            width: 1.38rem;
+                            height: 1.38rem;
+                        }
+                        p {
+                            margin-left: 0.88rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.25rem;
+                            color: #78808a;
+                            line-height: 1.46rem;
+                            letter-spacing: 1px;
+                            text-align: left;
                         }
                     }
                 }
             }
-            .news {
-                h2 {
-                    margin-bottom: 1.63rem;
-                    font-size: 1.63rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: bold;
-                    color: #ffffff;
-                    line-height: 1.9rem;
-                }
-                .card {
-                    margin-top: 1.5rem;
+            .code {
+                margin-top: 0.5rem;
+                width: 20rem;
+                .qr {
                     display: flex;
-                    .card_left {
-                        width: 6.25rem;
-                        height: 4.38rem;
+                    .qr_Box + .qr_Box {
+                        margin-left: 1.8rem;
+                    }
+                    .qr_Box {
+                        width: 8.38rem;
                         img {
                             width: 100%;
-                            height: 100%;
+                            height: auto;
                         }
-                    }
-                    .card_right {
-                        margin-left: 0.75rem;
-                        display: flex;
-                        flex-wrap: wrap;
-                        flex-direction: column;
-                        justify-content: center;
                         p {
-                            max-width: 15rem;
-                            margin-top: 0.63rem;
-                            margin-bottom: 0.75rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
                             font-size: 1rem;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            color: #e7b82a;
+                            color: #010811;
                             line-height: 1.17rem;
-                            white-space: nowrap;
-                            overflow: hidden;
-                            text-overflow: ellipsis;
-                        }
-                        span {
-                            font-size: 0.88rem;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            color: #ffffff;
-                            line-height: 1.03rem;
+                            letter-spacing: 1px;
+                            text-align: center;
                         }
                     }
                 }
             }
         }
+        .foot {
+            width: 100%;
+            height: 3.75rem;
+            background: #0f2856;
+        }
     }
 }
 
-@media screen and (min-width: 1101px) and (max-width: 1500px) {
-    .footer {
-        width: 100%;
-        background: #0f0103;
-        height: 33.5rem;
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .pages {
+        height: 27.5rem;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        flex-direction: column;
         .container {
+            flex: 1;
             width: 90%;
-            padding-top: 2.69rem;
             display: flex;
             justify-content: space-between;
-            .school {
-                .logo {
-                    width: 19.56rem;
-                    height: 3.63rem;
-                    img {
-                        width: 100%;
-                        height: 100%;
-                    }
-                }
-                .mark {
+            padding-top: 4rem;
+            .logo {
+                width: 15rem;
+                img {
                     width: 100%;
-                    margin-top: 1.44rem;
-                    margin-bottom: 1.25rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: bold;
-                    font-size: 1.5rem;
-                    color: #ffffff;
-                    line-height: 1.76rem;
-                    letter-spacing: 4px;
-                    text-align: center;
-                }
-                .qrBox {
-                    width: 100%;
-                    display: flex;
-                    .qrCode {
-                        margin-left: 1.56rem;
-                        img {
-                            width: 7.25rem;
-                            height: 7.25rem;
-                        }
-                        p {
-                            width: 100%;
-                            text-align: center;
-                            margin-top: 0.81rem;
-                            font-size: 1rem;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            color: #ffffff;
-                            line-height: 1.17rem;
-                        }
-                    }
+                    height: auto;
                 }
             }
-
-            .situation {
+            .title {
+                display: flex;
+                align-items: center;
                 h2 {
-                    margin-bottom: 1.81rem;
-                    font-size: 1.63rem;
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
-                    color: #ffffff;
-                    line-height: 1.9rem;
+                    font-size: 1.63rem;
+                    color: #010811;
+                    line-height: 2rem;
                 }
                 p {
-                    font-size: 1rem;
-                    font-family: Microsoft YaHei UI, sans-serif;
+                    margin-left: 1.5rem;
+                    font-family: Abhaya Libre, sans-serif;
                     font-weight: 400;
-                    color: #ffffff;
-                    line-height: 1.17rem;
-                    a {
-                        color: #ffffff;
-                        text-decoration: none;
-                    }
+                    font-size: 1.25rem;
+                    color: #010811;
+                    line-height: 2rem;
+                    letter-spacing: 1px;
                 }
-                p + p {
-                    margin-top: 1.25rem;
-                }
+            }
+            .line {
+                margin: 1.88rem 0;
+                width: 100%;
+                height: 0.12rem;
+                background-color: #78808a;
+                position: relative;
+            }
+            .line::before {
+                content: '';
+                width: 6.25rem;
+                height: 0.38rem;
+                position: absolute;
+                border-radius: 0.1rem;
+                left: 0;
+                top: -0.15rem;
+                background-color: #af0d21;
             }
             .contact {
-                h2 {
-                    margin-bottom: 0.88rem;
-                    font-size: 1.63rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: bold;
-                    color: #ffffff;
-                    line-height: 1.9rem;
-                }
-                .card + .card {
-                    margin-top: 2.19rem;
-                }
-                .card {
-                    margin-top: 1.81rem;
-                    p {
-                        font-size: 1.25rem;
-                        font-family: Microsoft YaHei, sans-serif;
-                        font-weight: bold;
-                        color: #ffffff;
-                        line-height: 1.46rem;
-                        .phoneIcon {
-                            display: inline-block;
-                            transform: rotate(95deg);
-                            margin-right: 0.4rem;
-                        }
+                margin-top: 0.5rem;
+                width: 27.25rem;
+                ul {
+                    list-style: none;
+                    li + li {
+                        margin-top: 1.88rem;
                     }
-                    .cardBody {
-                        margin-top: 0.88rem;
+                    li {
                         display: flex;
-                        .right {
-                            p {
-                                margin-top: 0;
-                                font-size: 1rem;
-                                font-family: Microsoft YaHei, sans-serif;
-                                font-weight: 400;
-                                color: #ffffff;
-                                line-height: 1.17rem;
-                            }
-                            p + p {
-                                margin-top: 0.63rem;
-                            }
+                        align-items: center;
+                        img {
+                            width: 1.38rem;
+                            height: 1.38rem;
+                        }
+                        p {
+                            margin-left: 0.88rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.25rem;
+                            color: #78808a;
+                            line-height: 1.46rem;
+                            letter-spacing: 1px;
+                            text-align: left;
                         }
                     }
                 }
             }
-            .news {
-                h2 {
-                    margin-bottom: 1.63rem;
-                    font-size: 1.63rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: bold;
-                    color: #ffffff;
-                    line-height: 1.9rem;
-                }
-                .card {
-                    margin-top: 1.5rem;
+            .code {
+                margin-top: 0.5rem;
+                width: 20rem;
+                .qr {
                     display: flex;
-                    .card_left {
-                        width: 6.25rem;
-                        height: 4.38rem;
+                    .qr_Box + .qr_Box {
+                        margin-left: 1.8rem;
+                    }
+                    .qr_Box {
+                        width: 8.38rem;
                         img {
                             width: 100%;
-                            height: 100%;
+                            height: auto;
                         }
-                    }
-                    .card_right {
-                        margin-left: 0.75rem;
-                        display: flex;
-                        flex-wrap: wrap;
-                        flex-direction: column;
-                        justify-content: center;
                         p {
-                            max-width: 15rem;
-                            margin-top: 0.63rem;
-                            margin-bottom: 0.75rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
                             font-size: 1rem;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            color: #e7b82a;
+                            color: #010811;
                             line-height: 1.17rem;
-                            white-space: nowrap;
-                            overflow: hidden;
-                            text-overflow: ellipsis;
-                        }
-                        span {
-                            font-size: 0.88rem;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            color: #ffffff;
-                            line-height: 1.03rem;
+                            letter-spacing: 1px;
+                            text-align: center;
                         }
                     }
                 }
             }
         }
+        .foot {
+            width: 100%;
+            height: 3.75rem;
+            background: #0f2856;
+        }
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1100px) {
-    .footer {
-        width: 100%;
-        background: #0f0103;
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    .pages {
+        height: 27.5rem;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .container {
+            flex: 1;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 4rem;
+            .logo {
+                width: 14rem;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .title {
+                display: flex;
+                align-items: center;
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 1.63rem;
+                    color: #010811;
+                    line-height: 2rem;
+                }
+                p {
+                    margin-left: 1.5rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.25rem;
+                    color: #010811;
+                    line-height: 2rem;
+                    letter-spacing: 1px;
+                }
+            }
+            .line {
+                margin: 1.88rem 0;
+                width: 100%;
+                height: 0.12rem;
+                background-color: #78808a;
+                position: relative;
+            }
+            .line::before {
+                content: '';
+                width: 6.25rem;
+                height: 0.38rem;
+                position: absolute;
+                border-radius: 0.1rem;
+                left: 0;
+                top: -0.15rem;
+                background-color: #af0d21;
+            }
+            .contact {
+                margin-top: 0.5rem;
+                width: 23rem;
+                ul {
+                    list-style: none;
+                    li + li {
+                        margin-top: 1.88rem;
+                    }
+                    li {
+                        display: flex;
+                        align-items: center;
+                        img {
+                            width: 1.38rem;
+                            height: 1.38rem;
+                        }
+                        p {
+                            margin-left: 0.88rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.1rem;
+                            color: #78808a;
+                            line-height: 1.46rem;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+            .code {
+                margin-top: 0.5rem;
+                width: 20rem;
+                .qr {
+                    display: flex;
+                    .qr_Box + .qr_Box {
+                        margin-left: 1.5rem;
+                    }
+                    .qr_Box {
+                        width: 8.38rem;
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1rem;
+                            color: #010811;
+                            line-height: 1.17rem;
+                            letter-spacing: 1px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        .foot {
+            width: 100%;
+            height: 3.75rem;
+            background: #0f2856;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .pages {
+        height: 27.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .container {
+            flex: 1;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 4rem;
+            .logo {
+                width: 12rem;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .title {
+                display: flex;
+                align-items: center;
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                    color: #010811;
+                    line-height: 2rem;
+                }
+                p {
+                    margin-left: 1rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.1rem;
+                    color: #010811;
+                    line-height: 2rem;
+                    letter-spacing: 1px;
+                }
+            }
+            .line {
+                margin: 1.88rem 0;
+                width: 100%;
+                height: 0.12rem;
+                background-color: #78808a;
+                position: relative;
+            }
+            .line::before {
+                content: '';
+                width: 6.25rem;
+                height: 0.38rem;
+                position: absolute;
+                border-radius: 0.1rem;
+                left: 0;
+                top: -0.15rem;
+                background-color: #af0d21;
+            }
+            .contact {
+                width: 20rem;
+                ul {
+                    list-style: none;
+                    li + li {
+                        margin-top: 1.5rem;
+                    }
+                    li {
+                        display: flex;
+                        align-items: flex-start;
+                        img {
+                            width: 1.1rem;
+                            height: 1.1rem;
+                        }
+                        p {
+                            margin-left: 0.88rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1rem;
+                            color: #78808a;
+                            line-height: 1.1rem;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+            .code {
+                width: 18rem;
+                .qr {
+                    display: flex;
+                    .qr_Box + .qr_Box {
+                        margin-left: 1.5rem;
+                    }
+                    .qr_Box {
+                        width: 8.38rem;
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1rem;
+                            color: #010811;
+                            line-height: 1.17rem;
+                            letter-spacing: 1px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        .foot {
+            width: 100%;
+            height: 3.75rem;
+            background: #0f2856;
+        }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         .container {
             width: 90%;
-            padding: 3rem 0;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 3rem;
-            .school {
-                width: 45%;
-                .logo {
-                    width: 19.56rem;
-                    height: 3.63rem;
-                    img {
-                        width: 100%;
-                        height: 100%;
-                    }
-                }
-                .mark {
-                    width: 100%;
-                    margin-top: 1.44rem;
-                    margin-bottom: 1.25rem;
-                    padding-left: 1.9rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: bold;
-                    font-size: 1.5rem;
-                    color: #ffffff;
-                    line-height: 1.76rem;
-                    letter-spacing: 4px;
-                }
-                .qrBox {
-                    width: 100%;
-                    display: flex;
-                    .qrCode {
-                        margin-left: 1.56rem;
-                        img {
-                            width: 7.25rem;
-                            height: 7.25rem;
-                        }
-                        p {
-                            width: 100%;
-                            text-align: center;
-                            margin-top: 0.81rem;
-                            font-size: 1rem;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            color: #ffffff;
-                            line-height: 1.17rem;
-                        }
-                    }
+            padding: 4rem 0;
+            .logo {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    width: 14rem;
+                    height: auto;
                 }
             }
-            .situation {
-                width: 45%;
+            .title {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
                 h2 {
-                    margin-bottom: 1.81rem;
-                    font-size: 1.63rem;
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
-                    color: #ffffff;
-                    line-height: 1.9rem;
+                    font-size: 1.63rem;
+                    color: #010811;
+                    line-height: 2rem;
                 }
                 p {
-                    font-size: 1rem;
-                    font-family: Microsoft YaHei UI, sans-serif;
+                    margin-left: 1.5rem;
+                    font-family: Abhaya Libre, sans-serif;
                     font-weight: 400;
-                    color: #ffffff;
-                    line-height: 1.17rem;
-                    a {
-                        color: #ffffff;
-                        text-decoration: none;
-                    }
+                    font-size: 1.25rem;
+                    color: #010811;
+                    line-height: 2rem;
+                    letter-spacing: 1px;
                 }
-                p + p {
-                    margin-top: 1.25rem;
-                }
+            }
+            .line {
+                margin: 1.88rem 0;
+                width: 100%;
+                height: 0.12rem;
+                background-color: #78808a;
+                position: relative;
+            }
+            .line::before {
+                content: '';
+                width: 6.25rem;
+                height: 0.38rem;
+                position: absolute;
+                border-radius: 0.1rem;
+                left: 0;
+                top: -0.15rem;
+                background-color: #af0d21;
             }
             .contact {
-                width: 40%;
-                h2 {
-                    margin-bottom: 0.88rem;
-                    font-size: 1.63rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: bold;
-                    color: #ffffff;
-                    line-height: 1.9rem;
-                }
-                .card + .card {
-                    margin-top: 2.19rem;
-                }
-                .card {
-                    margin-top: 1.81rem;
-                    p {
-                        font-size: 1.25rem;
-                        font-family: Microsoft YaHei, sans-serif;
-                        font-weight: bold;
-                        color: #ffffff;
-                        line-height: 1.46rem;
-                        .phoneIcon {
-                            display: inline-block;
-                            transform: rotate(95deg);
-                            margin-right: 0.4rem;
-                        }
+                margin-top: 2rem;
+                max-width: 27.25rem;
+                width: 90%;
+                ul {
+                    list-style: none;
+                    li + li {
+                        margin-top: 1.88rem;
                     }
-                    .cardBody {
-                        margin-top: 0.88rem;
+                    li {
                         display: flex;
-                        .right {
-                            p {
-                                margin-top: 0;
-                                font-size: 1rem;
-                                font-family: Microsoft YaHei, sans-serif;
-                                font-weight: 400;
-                                color: #ffffff;
-                                line-height: 1.17rem;
-                            }
-                            p + p {
-                                margin-top: 0.63rem;
-                            }
+                        align-items: center;
+                        img {
+                            width: 1.38rem;
+                            height: 1.38rem;
+                        }
+                        p {
+                            margin-left: 0.88rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.25rem;
+                            color: #78808a;
+                            line-height: 1.46rem;
+                            letter-spacing: 1px;
+                            text-align: left;
                         }
                     }
                 }
             }
-            .news {
-                width: 40%;
-                h2 {
-                    margin-bottom: 1.63rem;
-                    font-size: 1.63rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: bold;
-                    color: #ffffff;
-                    line-height: 1.9rem;
-                }
-                .card {
-                    margin-top: 1.5rem;
+            .code {
+                margin-top: 2rem;
+                max-width: 27.25rem;
+                width: 90%;
+                .qr {
                     display: flex;
-                    .card_left {
-                        width: 6.25rem;
-                        height: 4.38rem;
+                    .qr_Box + .qr_Box {
+                        margin-left: 1.8rem;
+                    }
+                    .qr_Box {
+                        width: 8.38rem;
                         img {
                             width: 100%;
-                            height: 100%;
+                            height: auto;
                         }
-                    }
-                    .card_right {
-                        margin-left: 0.75rem;
-                        display: flex;
-                        flex-wrap: wrap;
-                        flex-direction: column;
-                        justify-content: center;
                         p {
-                            max-width: 15rem;
-                            margin-top: 0.63rem;
-                            margin-bottom: 0.75rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
                             font-size: 1rem;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            color: #e7b82a;
+                            color: #010811;
                             line-height: 1.17rem;
-                            white-space: nowrap;
-                            overflow: hidden;
-                            text-overflow: ellipsis;
-                        }
-                        span {
-                            font-size: 0.88rem;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            color: #ffffff;
-                            line-height: 1.03rem;
+                            letter-spacing: 1px;
+                            text-align: center;
                         }
                     }
                 }
             }
         }
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .footer {
-        width: 100%;
-        background: #0f0103;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .container {
-            width: 80%;
-            padding: 3rem 0;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 10%;
-            .school {
-                width: 100%;
-                margin-bottom: 2rem;
-                .logo {
-                    img {
-                        width: 100%;
-                        height: 100%;
-                    }
-                }
-                .mark {
-                    width: 100%;
-                    margin-top: 1.44rem;
-                    margin-bottom: 1.25rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: bold;
-                    font-size: 1.5rem;
-                    color: #ffffff;
-                    line-height: 1.76rem;
-                    letter-spacing: 4px;
-                    text-align: center;
-                }
-                .qrBox {
-                    width: 100%;
-                    display: flex;
-                    justify-content: center;
-                    .qrCode + .qrCode {
-                        margin-left: 1.56rem;
-                    }
-                    .qrCode + .qrCode {
-                        margin-left: 1.56rem;
-                    }
-                    .qrCode {
-                        img {
-                            width: 8.25rem;
-                            height: 8.25rem;
-                        }
-                        p {
-                            width: 100%;
-                            text-align: center;
-                            margin-top: 0.81rem;
-                            font-size: 1rem;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            color: #ffffff;
-                            line-height: 1.17rem;
-                        }
-                    }
-                }
-            }
-            .situation {
-                width: 40%;
-                h2 {
-                    margin-bottom: 1.81rem;
-                    font-size: 1.63rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: bold;
-                    color: #ffffff;
-                    line-height: 1.9rem;
-                }
-                p {
-                    font-size: 1rem;
-                    font-family: Microsoft YaHei UI, sans-serif;
-                    font-weight: 400;
-                    color: #ffffff;
-                    line-height: 1.17rem;
-                    a {
-                        color: #ffffff;
-                        text-decoration: none;
-                    }
-                }
-                p + p {
-                    margin-top: 1.25rem;
-                }
-            }
-            .contact {
-                width: 50%;
-                h2 {
-                    margin-bottom: 0.88rem;
-                    font-size: 1.63rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: bold;
-                    color: #ffffff;
-                    line-height: 1.9rem;
-                }
-                .card + .card {
-                    margin-top: 2.19rem;
-                }
-                .card {
-                    margin-top: 1.81rem;
-                    p {
-                        font-size: 1.25rem;
-                        font-family: Microsoft YaHei, sans-serif;
-                        font-weight: bold;
-                        color: #ffffff;
-                        line-height: 1.46rem;
-                        .phoneIcon {
-                            display: inline-block;
-                            transform: rotate(95deg);
-                            margin-right: 0.4rem;
-                        }
-                    }
-                    .cardBody {
-                        margin-top: 0.88rem;
-                        display: flex;
-                        .right {
-                            p {
-                                margin-top: 0;
-                                font-size: 1rem;
-                                font-family: Microsoft YaHei, sans-serif;
-                                font-weight: 400;
-                                color: #ffffff;
-                                line-height: 1.17rem;
-                            }
-                            p + p {
-                                margin-top: 0.63rem;
-                            }
-                        }
-                    }
-                }
-            }
-            .news {
-                margin-top: 2rem;
-                width: 100%;
-                h2 {
-                    margin-bottom: 1.63rem;
-                    font-size: 1.63rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: bold;
-                    color: #ffffff;
-                    line-height: 1.9rem;
-                }
-                .card {
-                    margin-top: 1.5rem;
-                    display: flex;
-                    .card_left {
-                        min-width: 6.25rem;
-                        max-width: 6.25rem;
-                        height: 4.38rem;
-                        img {
-                            width: 100%;
-                            height: 100%;
-                        }
-                    }
-                    .card_right {
-                        margin-left: 0.75rem;
-                        display: flex;
-                        flex-wrap: wrap;
-                        flex-direction: column;
-                        justify-content: center;
-                        p {
-                            max-width: 18rem;
-                            margin-top: 0.63rem;
-                            margin-bottom: 0.75rem;
-                            font-size: 1rem;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            color: #e7b82a;
-                            line-height: 1.17rem;
-                            white-space: nowrap;
-                            overflow: hidden;
-                            text-overflow: ellipsis;
-                        }
-                        span {
-                            font-size: 0.88rem;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            color: #ffffff;
-                            line-height: 1.03rem;
-                        }
-                    }
-                }
-            }
+        .foot {
+            width: 100%;
+            height: 3.75rem;
+            background: #0f2856;
         }
     }
 }

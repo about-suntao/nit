@@ -1,13 +1,13 @@
 {
-    "name": "zhStar",
+    "name": "nit",
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "dev": "next dev -H 0.0.0.0 -p 3005",
+        "dev": "next dev -H 0.0.0.0 -p 3006",
         "build": "next build",
-        "start": "next start -H 0.0.0.0 -p 3005",
+        "start": "next start -H 0.0.0.0 -p 3006",
         "lint": "next lint",
-        "pmStart": "pm2 start npm --name zh -- run start"
+        "pmStart": "pm2 start npm --name nit -- run start"
     },
     "dependencies": {
         "@amap/amap-jsapi-loader": "^1.0.1",

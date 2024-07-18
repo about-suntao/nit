@@ -11,6 +11,7 @@ import styles from './page.module.scss'
 
 import logo from '../../../../public/img/home/logo.webp'
 
+
 type MenuItem = Required<MenuProps>['items'][number];
 
 function Header() {
@@ -32,33 +33,45 @@ function Header() {
       key: 'home',
     },
     {
-      label: (<Link href="/school">学校概况</Link>),
+      label: (<Link href="/school">关于学校</Link>),
       key: '/school',
     },
     {
-      label: (<Link href="/department">学部建设</Link>),
-      key: '/department',
+      label: 'NIT国际课程',
+      key: '/nit',
+      children: [
+        {
+          label: (<Link href="/nit/project">项目简介</Link>),
+          key: '/nit/project',
+        }, {
+          label: (<Link href="/nit/class">班型设置</Link>),
+          key: '/nit/class',
+        }, {
+          label: (<Link href="/nit/education">教育管理</Link>),
+          key: '/nit/education',
+        },
+      ]
     },
     {
-      label: (<Link href="/education">教育教学</Link>),
-      key: '/education',
+      label: (<Link href="/team">师资团队</Link>),
+      key: '/team',
     }, {
-      label: (<Link href="/life">校园生活</Link>),
-      key: '/life',
+      label: (<Link href="/commonProblem">常见问题</Link>),
+      key: '/commonProblem',
     },
     {
-      label: (<Link href="/schoolDynamic">学校动态</Link>),
-      key: '/schoolDynamic',
+      label: (<Link href="/news">最新资讯</Link>),
+      key: '/news',
     },
     {
-      label: '招生报名',
+      label: '报名通道',
       key: '/recruitStudent',
       children: [
         {
-          label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/bMV-gvsUYnhU2izUZcDMgA')}>招生简章</a>),
+          label: (<a onClick={() => openNewWindow('')}>招生简章</a>),
           key: 'recruitStudent',
         }, {
-          label: (<a onClick={() => openNewWindow('http://xwzx.cdbyrj.com/wxzs/StudentAsistant/Index?teacherId=0&openId=o5UlTtwWd8yYGec_TDwQaPjFOI0g')}>报名入口</a>),
+          label: (<a onClick={() => openNewWindow('')}>报名方式</a>),
           key: 'apply',
         },
       ]
