@@ -9,7 +9,7 @@ import picture3 from '../../../../public/img/home/i3.webp'
 
 function Introduce() {
   return (
-    <div className={styles.pages}>
+    <section className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
           <h2>浙大宁波理工学院经理学院国际课程中心</h2>
@@ -26,7 +26,7 @@ function Introduce() {
           <Image src={picture3} alt=''></Image>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

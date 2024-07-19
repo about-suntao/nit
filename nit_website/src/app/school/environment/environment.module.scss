@@ -1,0 +1,288 @@
+@media screen and (min-width: 1401px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f3f6f9;
+        .container {
+            width: 86rem;
+            padding-top: 2.38rem;
+            padding-bottom: 5.88rem;
+            .title {
+                display: flex;
+                align-items: center;
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                }
+                p {
+                    margin-left: 1.25rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.75rem;
+                    color: #010811;
+                    line-height: 2.8rem;
+                    letter-spacing: 2px;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 2.5rem 2%;
+                li {
+                    width: 32%;
+                    position: relative;
+                    img {
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                    }
+                    .name {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 9.81rem;
+                        height: 3.13rem;
+                        background: #ffffff;
+                        box-shadow: 0rem -0.44rem 0rem 0rem #1e5aaa;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.25rem;
+                            color: #010811;
+                            line-height: 2rem;
+                            letter-spacing: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1400px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f3f6f9;
+        .container {
+            width: 90%;
+            padding-top: 2.38rem;
+            padding-bottom: 5.88rem;
+            .title {
+                display: flex;
+                align-items: center;
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                }
+                p {
+                    margin-left: 1.25rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.75rem;
+                    color: #010811;
+                    line-height: 2.8rem;
+                    letter-spacing: 2px;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 2.5rem 2%;
+                li {
+                    width: 32%;
+                    position: relative;
+                    img {
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                    }
+                    .name {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 9.81rem;
+                        height: 3.13rem;
+                        background: #ffffff;
+                        box-shadow: 0rem -0.44rem 0rem 0rem #1e5aaa;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.25rem;
+                            color: #010811;
+                            line-height: 2rem;
+                            letter-spacing: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f3f6f9;
+        .container {
+            width: 90%;
+            padding-top: 2.38rem;
+            padding-bottom: 5.88rem;
+            .title {
+                display: flex;
+                align-items: center;
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                }
+                p {
+                    margin-left: 1.25rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.75rem;
+                    color: #010811;
+                    line-height: 2.8rem;
+                    letter-spacing: 2px;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 2.5rem 2%;
+                li {
+                    width: 32%;
+                    position: relative;
+                    img {
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                    }
+                    .name {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 8rem;
+                        height: 2.5rem;
+                        background: #ffffff;
+                        box-shadow: 0rem -0.44rem 0rem 0rem #1e5aaa;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.1rem;
+                            color: #010811;
+                            line-height: 2rem;
+                            letter-spacing: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f3f6f9;
+        .container {
+            width: 90%;
+            padding-top: 2.38rem;
+            padding-bottom: 5.88rem;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                }
+                p {
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.5rem;
+                    color: #010811;
+                    line-height: 2.8rem;
+                    letter-spacing: 2px;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 2.5rem 4%;
+                li {
+                    width: 48%;
+                    position: relative;
+                    img {
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                    }
+                    .name {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 6rem;
+                        height: 2rem;
+                        background: #ffffff;
+                        box-shadow: 0rem -0.44rem 0rem 0rem #1e5aaa;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.1rem;
+                            color: #010811;
+                            line-height: 2rem;
+                            letter-spacing: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

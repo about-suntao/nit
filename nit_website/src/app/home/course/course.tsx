@@ -30,7 +30,7 @@ function Course() {
   ]
 
   return (
-    <div className={styles.pages}>
+    <section className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
           <h2>NIT国际课程</h2>
@@ -92,7 +92,7 @@ function Course() {
           }
         </Swiper>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -1,11 +1,14 @@
 import React from 'react'
+import Introduce from './introduce/introduce'
+import Environment from './environment/environment'
 
-function Page() {
+function School() {
   return (
-    <div>
-
-    </div>
+    <>
+      <Introduce></Introduce>
+      <Environment></Environment>
+    </>
   )
 }
 
-export default Page
+export default School

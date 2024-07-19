@@ -1,0 +1,242 @@
+@media screen and (min-width: 1401px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            width: 86rem;
+            margin-top: 6rem;
+            margin-bottom: 3.88rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .content {
+                width: 39.31rem;
+                .title {
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2.25rem;
+                        color: #010811;
+                        line-height: 2.64rem;
+                        letter-spacing: 2px;
+                    }
+                    p {
+                        margin-top: 0.63rem;
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.75rem;
+                        color: #010811;
+                        line-height: 2.8rem;
+                        letter-spacing: 2px;
+                    }
+                }
+                .introduce {
+                    margin-top: 2.5rem;
+                    p {
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.13rem;
+                        color: #0f1d2e;
+                        line-height: 1.8rem;
+                        letter-spacing: 1px;
+                        text-align: justify;
+                    }
+                }
+            }
+            .picture {
+                width: 42.88rem;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1400px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            width: 90%;
+            margin-top: 6rem;
+            margin-bottom: 3.88rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .content {
+                width: 46%;
+                .title {
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2.25rem;
+                        color: #010811;
+                        line-height: 2.64rem;
+                        letter-spacing: 2px;
+                    }
+                    p {
+                        margin-top: 0.63rem;
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.75rem;
+                        color: #010811;
+                        line-height: 2.8rem;
+                        letter-spacing: 2px;
+                    }
+                }
+                .introduce {
+                    margin-top: 2.5rem;
+                    p {
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.13rem;
+                        color: #0f1d2e;
+                        line-height: 1.8rem;
+                        letter-spacing: 1px;
+                        text-align: justify;
+                    }
+                }
+            }
+            .picture {
+                width: 50%;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            width: 80%;
+            margin-top: 6rem;
+            margin-bottom: 3.88rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            .content {
+                width: 100%;
+                .title {
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2.25rem;
+                        color: #010811;
+                        line-height: 2.64rem;
+                        letter-spacing: 2px;
+                        text-align: center;
+                    }
+                    p {
+                        margin-top: 0.63rem;
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.75rem;
+                        color: #010811;
+                        line-height: 2.8rem;
+                        letter-spacing: 2px;
+                        text-align: center;
+                    }
+                }
+                .introduce {
+                    margin-top: 2.5rem;
+                    p {
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.13rem;
+                        color: #0f1d2e;
+                        line-height: 1.8rem;
+                        letter-spacing: 1px;
+                        text-align: justify;
+                    }
+                }
+            }
+            .picture {
+                margin-top: 2.5rem;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    width: 60%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            width: 90%;
+            margin-top: 5rem;
+            margin-bottom: 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            .content {
+                width: 100%;
+                .title {
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 1.6rem;
+                        color: #010811;
+                        line-height: 2rem;
+                        letter-spacing: 2px;
+                        text-align: center;
+                    }
+                    p {
+                        margin-top: 0.63rem;
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.3rem;
+                        color: #010811;
+                        line-height: 2rem;
+                        letter-spacing: 2px;
+                        text-align: center;
+                    }
+                }
+                .introduce {
+                    margin-top: 1.5rem;
+                    p {
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1rem;
+                        color: #0f1d2e;
+                        line-height: 1.8rem;
+                        letter-spacing: 1px;
+                        text-align: justify;
+                    }
+                }
+            }
+            .picture {
+                margin-top: 1.5rem;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    max-width: 30rem;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

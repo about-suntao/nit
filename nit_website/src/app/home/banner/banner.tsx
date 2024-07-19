@@ -43,7 +43,7 @@ function Banner() {
 
 
   return (
-    <div className={styles.pages}>
+    <section className={styles.pages}>
       <div className={styles.container}>
         <Swiper
           autoplay={{
@@ -68,7 +68,7 @@ function Banner() {
           }
         </Swiper>
       </div>
-    </div>
+    </section>
   )
 }
 
