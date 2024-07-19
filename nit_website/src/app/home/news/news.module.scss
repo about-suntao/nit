@@ -1,0 +1,457 @@
+@media screen and (min-width: 1401px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f3f6f9;
+        .container {
+            width: 82rem;
+            margin: 4rem 0;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    margin-bottom: 1.56rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.75rem;
+                    color: #010811;
+                    line-height: 2.8rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                hr {
+                    margin: 0 auto;
+                    width: 6.63rem;
+                    height: 0.38rem;
+                    background: #054391;
+                    border: none;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                li {
+                    width: 26rem;
+                    background-color: #ffffff;
+                    .picture {
+                        width: 100%;
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    .card_body {
+                        padding: 1rem 1.5rem;
+                        .card_name {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.25rem;
+                            color: #010811;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 2;
+                        }
+                        .time {
+                            margin-top: 0.63rem;
+                            display: flex;
+                            align-items: center;
+                            img {
+                                width: 1.5rem;
+                                height: 1.5rem;
+                            }
+                            p {
+                                margin-left: 0.63rem;
+                                font-family: Source Han Serif CN, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #2a3849;
+                                line-height: 1.17rem;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                }
+            }
+            .btn {
+                margin-top: 2.5rem;
+                display: flex;
+                justify-content: center;
+                button {
+                    width: 13.25rem;
+                    height: 3rem;
+                    background: #af0d21;
+                    box-shadow: 0rem 0.06rem 0.25rem 0rem rgba(1, 8, 17, 0.41);
+                    border-radius: 0.75rem;
+                    border: none;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 1.25rem;
+                    color: #ffffff;
+                    line-height: 1.46rem;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1400px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f3f6f9;
+        .container {
+            width: 90%;
+            margin: 4rem 0;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    margin-bottom: 1.56rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.75rem;
+                    color: #010811;
+                    line-height: 2.8rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                hr {
+                    margin: 0 auto;
+                    width: 6.63rem;
+                    height: 0.38rem;
+                    background: #054391;
+                    border: none;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                width: 100%;
+                li {
+                    width: 32%;
+                    background-color: #ffffff;
+                    .picture {
+                        width: 100%;
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    .card_body {
+                        padding: 1rem 1.5rem;
+                        .card_name {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.25rem;
+                            color: #010811;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 2;
+                        }
+                        .time {
+                            margin-top: 0.63rem;
+                            display: flex;
+                            align-items: center;
+                            img {
+                                width: 1.5rem;
+                                height: 1.5rem;
+                            }
+                            p {
+                                margin-left: 0.63rem;
+                                font-family: Source Han Serif CN, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #2a3849;
+                                line-height: 1.17rem;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                }
+            }
+            .btn {
+                margin-top: 2.5rem;
+                display: flex;
+                justify-content: center;
+                button {
+                    width: 13.25rem;
+                    height: 3rem;
+                    background: #af0d21;
+                    box-shadow: 0rem 0.06rem 0.25rem 0rem rgba(1, 8, 17, 0.41);
+                    border-radius: 0.75rem;
+                    border: none;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 1.25rem;
+                    color: #ffffff;
+                    line-height: 1.46rem;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f3f6f9;
+        .container {
+            width: 90%;
+            margin: 4rem 0;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    margin-bottom: 1.56rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.75rem;
+                    color: #010811;
+                    line-height: 2.8rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                hr {
+                    margin: 0 auto;
+                    width: 6.63rem;
+                    height: 0.38rem;
+                    background: #054391;
+                    border: none;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                width: 100%;
+                li {
+                    width: 32%;
+                    background-color: #ffffff;
+                    .picture {
+                        width: 100%;
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    .card_body {
+                        padding: 1rem;
+                        .card_name {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.1rem;
+                            color: #010811;
+                            line-height: 1.5rem;
+                            text-align: justify;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 2;
+                        }
+                        .time {
+                            margin-top: 0.63rem;
+                            display: flex;
+                            align-items: center;
+                            img {
+                                width: 1.5rem;
+                                height: 1.5rem;
+                            }
+                            p {
+                                margin-left: 0.63rem;
+                                font-family: Source Han Serif CN, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #2a3849;
+                                line-height: 1.17rem;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                }
+            }
+            .btn {
+                margin-top: 2.5rem;
+                display: flex;
+                justify-content: center;
+                button {
+                    width: 10rem;
+                    height: 2.5rem;
+                    background: #af0d21;
+                    box-shadow: 0rem 0.06rem 0.25rem 0rem rgba(1, 8, 17, 0.41);
+                    border-radius: 0.75rem;
+                    border: none;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 1.25rem;
+                    color: #ffffff;
+                    line-height: 1.46rem;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f3f6f9;
+        .container {
+            width: 90%;
+            margin: 4rem 0;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    margin-bottom: 1.56rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.75rem;
+                    color: #010811;
+                    line-height: 2.8rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                hr {
+                    margin: 0 auto;
+                    width: 6.63rem;
+                    height: 0.38rem;
+                    background: #054391;
+                    border: none;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                list-style: none;
+                width: 100%;
+                li + li {
+                    margin-top: 2.5rem;
+                }
+                li {
+                    width: 100%;
+                    max-width: 32rem;
+                    background-color: #ffffff;
+                    .picture {
+                        width: 100%;
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    .card_body {
+                        padding: 1rem;
+                        .card_name {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.1rem;
+                            color: #010811;
+                            line-height: 1.5rem;
+                            text-align: justify;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 2;
+                        }
+                        .time {
+                            margin-top: 0.63rem;
+                            display: flex;
+                            align-items: center;
+                            img {
+                                width: 1.5rem;
+                                height: 1.5rem;
+                            }
+                            p {
+                                margin-left: 0.63rem;
+                                font-family: Source Han Serif CN, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #2a3849;
+                                line-height: 1.17rem;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                }
+            }
+            .btn {
+                margin-top: 2.5rem;
+                display: flex;
+                justify-content: center;
+                button {
+                    width: 10rem;
+                    height: 2.5rem;
+                    background: #af0d21;
+                    box-shadow: 0rem 0.06rem 0.25rem 0rem rgba(1, 8, 17, 0.41);
+                    border-radius: 0.75rem;
+                    border: none;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 1.25rem;
+                    color: #ffffff;
+                    line-height: 1.46rem;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}

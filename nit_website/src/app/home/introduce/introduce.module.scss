@@ -1,0 +1,198 @@
+@media screen and (min-width: 1401px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            width: 83rem;
+            margin: 6.25rem 0;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    margin-bottom: 1.56rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.75rem;
+                    color: #010811;
+                    line-height: 2.8rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                hr {
+                    margin: 0 auto;
+                    width: 9.63rem;
+                    height: 0.5rem;
+                    background: #054391;
+                    border: none;
+                }
+            }
+            .content {
+                margin-top: 2.5rem;
+                p {
+                    font-family: Microsoft YaHei UI, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.25rem;
+                    color: #0f1d2e;
+                    line-height: 2.25rem;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+            }
+            .picture {
+                margin-top: 2.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img + img {
+                    margin-left: 2.5rem;
+                }
+                img {
+                    width: 13.5rem;
+                    height: 13.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1400px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            width: 90%;
+            margin: 6.25rem 0;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    margin-bottom: 1.56rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.75rem;
+                    color: #010811;
+                    line-height: 2.8rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                hr {
+                    margin: 0 auto;
+                    width: 9.63rem;
+                    height: 0.5rem;
+                    background: #054391;
+                    border: none;
+                }
+            }
+            .content {
+                margin-top: 2.5rem;
+                p {
+                    font-family: Microsoft YaHei UI, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.25rem;
+                    color: #0f1d2e;
+                    line-height: 2.25rem;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+            }
+            .picture {
+                margin-top: 2.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img + img {
+                    margin-left: 2.5rem;
+                }
+                img {
+                    width: 13.5rem;
+                    height: 13.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            width: 90%;
+            margin: 5rem 0;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    margin-bottom: 1.56rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.5rem;
+                    color: #010811;
+                    line-height: 1.6rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                hr {
+                    margin: 0 auto;
+                    width: 9.63rem;
+                    height: 0.5rem;
+                    background: #054391;
+                    border: none;
+                }
+            }
+            .content {
+                margin-top: 2rem;
+                p {
+                    font-family: Microsoft YaHei UI, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.2rem;
+                    color: #0f1d2e;
+                    line-height: 2.25rem;
+                    letter-spacing: 1px;
+                    text-align: justify;
+                }
+            }
+            .picture {
+                margin-top: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                img + img {
+                    margin-left: 1rem;
+                }
+                img {
+                    width: 8rem;
+                    height: 8rem;
+                }
+            }
+        }
+    }
+}
