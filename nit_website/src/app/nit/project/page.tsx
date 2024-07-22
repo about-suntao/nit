@@ -1,10 +1,12 @@
 import React from 'react'
-
+import About from './about/about'
+import Features from './features/features'
 function Page() {
   return (
-    <div>
-
-    </div>
+    <>
+      <About></About>
+      <Features></Features>
+    </>
   )
 }
 
