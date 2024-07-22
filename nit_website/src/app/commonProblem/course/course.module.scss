@@ -1,0 +1,304 @@
+@media screen and (min-width: 1401px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fbfbfb;
+        .container {
+            margin: 2.5rem 0 6.25rem 0;
+            width: 80rem;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.75rem;
+                    color: #010811;
+                    line-height: 2.8rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                border-bottom: solid 1.58rem #054391;
+                li:nth-child(odd) {
+                    background-color: #f2f2f2;
+                }
+                li:nth-child(even) {
+                    background-color: #ffffff;
+                }
+                li {
+                    width: 33.33%;
+                    height: 8.31rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    align-content: center;
+                    .card_title {
+                        width: 100%;
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                        color: #010811;
+                        line-height: 2.7rem;
+                        letter-spacing: 1px;
+                        text-align: center;
+                    }
+                    .card_titleEn {
+                        width: 100%;
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.25rem;
+                        color: #010811;
+                        line-height: 2rem;
+                        letter-spacing: 1px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1400px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fbfbfb;
+        .container {
+            margin: 2.5rem 0 6.25rem 0;
+            width: 90%;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.75rem;
+                    color: #010811;
+                    line-height: 2.8rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                border-bottom: solid 1.58rem #054391;
+                li:nth-child(odd) {
+                    background-color: #f2f2f2;
+                }
+                li:nth-child(even) {
+                    background-color: #ffffff;
+                }
+                li {
+                    width: 33.33%;
+                    height: 8.31rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    align-content: center;
+                    .card_title {
+                        width: 100%;
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                        color: #010811;
+                        line-height: 2.7rem;
+                        letter-spacing: 1px;
+                        text-align: center;
+                    }
+                    .card_titleEn {
+                        width: 100%;
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.25rem;
+                        color: #010811;
+                        line-height: 2rem;
+                        letter-spacing: 1px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fbfbfb;
+        .container {
+            margin: 2.5rem 0 6.25rem 0;
+            width: 90%;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.75rem;
+                    color: #010811;
+                    line-height: 2.8rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                border-bottom: solid 1.58rem #054391;
+                li:nth-child(odd) {
+                    background-color: #f2f2f2;
+                }
+                li:nth-child(even) {
+                    background-color: #ffffff;
+                }
+                li {
+                    width: 33.33%;
+                    height: 7rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    align-content: center;
+                    .card_title {
+                        width: 100%;
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                        color: #010811;
+                        line-height: 2.7rem;
+                        letter-spacing: 1px;
+                        text-align: center;
+                    }
+                    .card_titleEn {
+                        width: 100%;
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.25rem;
+                        color: #010811;
+                        line-height: 2rem;
+                        letter-spacing: 1px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fbfbfb;
+        .container {
+            margin: 2.5rem 0 5rem 0;
+            width: 90%;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2rem;
+                    color: #010811;
+                    line-height: 2.64rem;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.2rem;
+                    color: #010811;
+                    line-height: 2rem;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+            }
+            ul {
+                margin-top: 2rem;
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                border-bottom: solid 1.58rem #054391;
+                li:nth-child(odd) {
+                    background-color: #f2f2f2;
+                }
+                li:nth-child(even) {
+                    background-color: #ffffff;
+                }
+                li {
+                    width: 50%;
+                    height: 7rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    align-content: center;
+                    .card_title {
+                        width: 100%;
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 1.4rem;
+                        color: #010811;
+                        line-height: 2rem;
+                        letter-spacing: 1px;
+                        text-align: center;
+                    }
+                    .card_titleEn {
+                        width: 100%;
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1rem;
+                        color: #010811;
+                        line-height: 1.5rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
