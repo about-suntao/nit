@@ -65,14 +65,14 @@ function Header() {
     },
     {
       label: '报名通道',
-      key: '/recruitStudent',
+      key: '/apply',
       children: [
         {
           label: (<a onClick={() => openNewWindow('')}>招生简章</a>),
-          key: 'recruitStudent',
-        }, {
-          label: (<a onClick={() => openNewWindow('')}>报名方式</a>),
           key: 'apply',
+        }, {
+          label: (<Link href="/apply/way">报名方式</Link>),
+          key: '/apply/way',
         },
       ]
     },
