@@ -1,33 +1,33 @@
 'use client'
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import styles from './course.module.scss'
 import Image from 'next/image'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 
-import picture1 from '../../../../public/img/home/k1.png'
+import fetchRequest from '@/utils/fetchRequest';
 
 function Course() {
 
-  const data = [
-    {
-      id: 1,
-      title: '港澳名校直通车',
-      picture: picture1,
-      titleEn: 'Hong Kong and Macao elite schools through train'
-    }, {
-      id: 2,
-      title: 'QS100名校直通车',
-      picture: picture1,
-      titleEn: 'QS100 schools through train'
-    }, {
-      id: 3,
-      title: '国际艺术名校直通车',
-      picture: picture1,
-      titleEn: 'International art school class'
-    },
-  ]
+  const [data, setData] = useState<any>([])
+  const [dataLoaded, setDataLoaded] = useState<boolean>(false); // 新增状态
+
+  const getData = async () => {
+    const res = await fetchRequest.get('/icon/web/course/queryAll');
+    setDataLoaded(true); // 设置数据已加载
+    setData(res.data)
+  }
+
+  useEffect(() => {
+    getData()
+  }, []);
+
+
+  // 确保获取数据后再加载
+  if (!dataLoaded) {
+    return null;
+  }
 
   return (
     <section className={styles.pages}>
@@ -50,10 +50,10 @@ function Course() {
               return (
                 <SwiperSlide key={item.id}>
                   <div className={styles.card}>
-                    <Image src={item.picture} alt=''></Image>
+                    <Image src={item.picture} alt='' width={400} height={300} priority></Image>
                     <div className={styles.card_title}>
-                      <h3>{item.title}</h3>
-                      <p>{item.titleEn}</p>
+                      <h3>{item.name}</h3>
+                      <p>{item.englishName}</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -80,10 +80,10 @@ function Course() {
               return (
                 <SwiperSlide key={item.id}>
                   <div className={styles.card}>
-                    <Image src={item.picture} alt=''></Image>
+                    <Image src={item.picture} alt='' width={400} height={300} priority></Image>
                     <div className={styles.card_title}>
-                      <h3>{item.title}</h3>
-                      <p>{item.titleEn}</p>
+                      <h3>{item.name}</h3>
+                      <p>{item.englishName}</p>
                     </div>
                   </div>
                 </SwiperSlide>

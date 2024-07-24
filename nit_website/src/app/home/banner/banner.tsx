@@ -8,6 +8,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules'
 import fetchRequest from '@/utils/fetchRequest';
 
+import mark from '../../../../public/img/home/mark.webp'
+
 SwiperCore.use([Autoplay]);
 
 function Banner() {
@@ -59,9 +61,15 @@ function Banner() {
               return (
                 <SwiperSlide key={item.id} onClick={() => handleRoute(item)}>
                   <Image className={styles.bannerImg} src={item.picture} alt={item.name} width={1920} height={800}></Image>
-                  <div className={styles.title}>
-                    <h1>{item.name}</h1>
-                  </div>
+                  {item.name &&
+                    <div className={styles.title}>
+                      <div className={styles.titleBox}>
+                        <Image className={styles.front} src={mark} alt=''></Image>
+                        <h1>{item.name}</h1>
+                        <Image className={styles.back} src={mark} alt=''></Image>
+                      </div>
+                    </div>
+                  }
                 </SwiperSlide>
               )
             })
