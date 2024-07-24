@@ -1,11 +1,14 @@
 import React from 'react'
+import Daily from './daily/daily'
+import Teaching from './teaching/teaching'
 
-function Page() {
+function Education() {
   return (
-    <div>
-
-    </div>
+    <>
+      <Daily></Daily>
+      <Teaching></Teaching>
+    </>
   )
 }
 
-export default Page
+export default Education

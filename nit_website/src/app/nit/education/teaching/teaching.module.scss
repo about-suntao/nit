@@ -1,0 +1,562 @@
+@media screen and (min-width: 1501px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 90rem;
+            margin-bottom: 6.25rem;
+            display: flex;
+            justify-content: space-between;
+            .left {
+                width: 44.13rem;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .right {
+                width: 42.5rem;
+                .title {
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2.25rem;
+                        color: #010811;
+                        line-height: 2.64rem;
+                        letter-spacing: 2px;
+                    }
+                    p {
+                        margin-top: 0.63rem;
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.75rem;
+                        color: #010811;
+                        line-height: 2.8rem;
+                        letter-spacing: 2px;
+                    }
+                    hr {
+                        margin: 2.5rem 0;
+                        width: 5.5rem;
+                        height: 0rem;
+                        border: 0.16rem solid #af0d21;
+                    }
+                }
+                :global {
+                    .swiper {
+                        padding-bottom: 4rem;
+                    }
+                    .swiper-slide {
+                        width: 100%;
+                        height: auto;
+                        background-color: #ffffff;
+                    }
+                    .swiper-pagination-bullets .swiper-pagination-bullet,
+                    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+                        margin: 0.63rem;
+                    }
+                    .swiper-pagination-bullet {
+                        width: 0.63rem;
+                        height: 0.63rem;
+                        background: transparent;
+                        border: 0.06rem solid #104391;
+                    }
+                    .swiper-pagination-bullet-active {
+                        width: 0.63rem;
+                        height: 0.63rem;
+                        background: #104391;
+                    }
+                }
+                .card {
+                    .list + .list {
+                        margin-top: 2.5rem;
+                    }
+                    .list {
+                        display: flex;
+                        .serial {
+                            margin-right: 1.13rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 2.5rem;
+                            color: #af0d21;
+                            line-height: 2.93rem;
+                            letter-spacing: 3px;
+                        }
+                        .list_body {
+                            h3 {
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.5rem;
+                                color: #010811;
+                                line-height: 1.76rem;
+                                letter-spacing: 1px;
+                            }
+                            p {
+                                margin-top: 0.63rem;
+                                font-family: Microsoft YaHei UI, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #0f1d2e;
+                                line-height: 1.78rem;
+                                letter-spacing: 1px;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 90%;
+            margin-bottom: 6.25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .left {
+                width: 48%;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .right {
+                width: 46%;
+                .title {
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2.25rem;
+                        color: #010811;
+                        line-height: 2.64rem;
+                        letter-spacing: 2px;
+                    }
+                    p {
+                        margin-top: 0.63rem;
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.75rem;
+                        color: #010811;
+                        line-height: 2.8rem;
+                        letter-spacing: 2px;
+                    }
+                    hr {
+                        margin: 2.5rem 0;
+                        width: 5.5rem;
+                        height: 0rem;
+                        border: 0.16rem solid #af0d21;
+                    }
+                }
+                :global {
+                    .swiper {
+                        padding-bottom: 4rem;
+                    }
+                    .swiper-slide {
+                        width: 100%;
+                        height: auto;
+                        background-color: #ffffff;
+                    }
+                    .swiper-pagination-bullets .swiper-pagination-bullet,
+                    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+                        margin: 0.63rem;
+                    }
+                    .swiper-pagination-bullet {
+                        width: 0.63rem;
+                        height: 0.63rem;
+                        background: transparent;
+                        border: 0.06rem solid #104391;
+                    }
+                    .swiper-pagination-bullet-active {
+                        width: 0.63rem;
+                        height: 0.63rem;
+                        background: #104391;
+                    }
+                }
+                .card {
+                    .list + .list {
+                        margin-top: 2.5rem;
+                    }
+                    .list {
+                        display: flex;
+                        .serial {
+                            margin-right: 1.13rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 2.5rem;
+                            color: #af0d21;
+                            line-height: 2.93rem;
+                            letter-spacing: 3px;
+                        }
+                        .list_body {
+                            h3 {
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.5rem;
+                                color: #010811;
+                                line-height: 1.76rem;
+                                letter-spacing: 1px;
+                            }
+                            p {
+                                margin-top: 0.63rem;
+                                font-family: Microsoft YaHei UI, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #0f1d2e;
+                                line-height: 1.78rem;
+                                letter-spacing: 1px;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 90%;
+            margin-bottom: 6.25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .left {
+                width: 48%;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .right {
+                width: 46%;
+                .title {
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2.1rem;
+                        color: #010811;
+                        line-height: 2.64rem;
+                        letter-spacing: 2px;
+                    }
+                    p {
+                        margin-top: 0.63rem;
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.5rem;
+                        color: #010811;
+                        line-height: 2rem;
+                        letter-spacing: 2px;
+                    }
+                    hr {
+                        margin: 2rem 0;
+                        width: 5.5rem;
+                        height: 0rem;
+                        border: 0.16rem solid #af0d21;
+                    }
+                }
+                :global {
+                    .swiper {
+                        padding-bottom: 4rem;
+                    }
+                    .swiper-slide {
+                        width: 100%;
+                        height: auto;
+                        background-color: #ffffff;
+                    }
+                    .swiper-pagination-bullets .swiper-pagination-bullet,
+                    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+                        margin: 0.63rem;
+                    }
+                    .swiper-pagination-bullet {
+                        width: 0.63rem;
+                        height: 0.63rem;
+                        background: transparent;
+                        border: 0.06rem solid #104391;
+                    }
+                    .swiper-pagination-bullet-active {
+                        width: 0.63rem;
+                        height: 0.63rem;
+                        background: #104391;
+                    }
+                }
+                .card {
+                    .list + .list {
+                        margin-top: 2rem;
+                    }
+                    .list {
+                        display: flex;
+                        .serial {
+                            margin-right: 1.13rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 2.5rem;
+                            color: #af0d21;
+                            line-height: 2.93rem;
+                            letter-spacing: 3px;
+                        }
+                        .list_body {
+                            h3 {
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.5rem;
+                                color: #010811;
+                                line-height: 1.76rem;
+                                letter-spacing: 1px;
+                            }
+                            p {
+                                margin-top: 0.63rem;
+                                font-family: Microsoft YaHei UI, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #0f1d2e;
+                                line-height: 1.78rem;
+                                letter-spacing: 1px;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 90%;
+            margin-bottom: 6.25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .left {
+                width: 48%;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .right {
+                width: 48%;
+                .title {
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2rem;
+                        color: #010811;
+                        line-height: 2.64rem;
+                        letter-spacing: 2px;
+                    }
+                    p {
+                        margin-top: 0.63rem;
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.4rem;
+                        color: #010811;
+                        line-height: 2rem;
+                        letter-spacing: 1px;
+                    }
+                    hr {
+                        margin: 1rem 0;
+                        width: 5.5rem;
+                        height: 0rem;
+                        border: 0.16rem solid #af0d21;
+                    }
+                }
+                :global {
+                    .swiper {
+                        padding-bottom: 4rem;
+                    }
+                    .swiper-slide {
+                        width: 100%;
+                        height: auto;
+                        background-color: #ffffff;
+                    }
+                    .swiper-pagination-bullets .swiper-pagination-bullet,
+                    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+                        margin: 0.63rem;
+                    }
+                    .swiper-pagination-bullet {
+                        width: 0.63rem;
+                        height: 0.63rem;
+                        background: transparent;
+                        border: 0.06rem solid #104391;
+                    }
+                    .swiper-pagination-bullet-active {
+                        width: 0.63rem;
+                        height: 0.63rem;
+                        background: #104391;
+                    }
+                }
+                .card {
+                    .list + .list {
+                        margin-top: 2.5rem;
+                    }
+                    .list {
+                        display: flex;
+                        .serial {
+                            margin-right: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 2rem;
+                            color: #af0d21;
+                            line-height: 2.93rem;
+                            letter-spacing: 3px;
+                        }
+                        .list_body {
+                            h3 {
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.5rem;
+                                color: #010811;
+                                line-height: 1.76rem;
+                                letter-spacing: 1px;
+                            }
+                            p {
+                                margin-top: 0.63rem;
+                                font-family: Microsoft YaHei UI, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #0f1d2e;
+                                line-height: 1.5rem;
+                                letter-spacing: 1px;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 90%;
+            margin-bottom: 6.25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            .left {
+                width: 100%;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .right {
+                width: 100%;
+                .title {
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2rem;
+                        color: #010811;
+                        line-height: 2.64rem;
+                        letter-spacing: 2px;
+                        text-align: center;
+                    }
+                    p {
+                        margin-top: 0.63rem;
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.4rem;
+                        color: #010811;
+                        line-height: 2rem;
+                        letter-spacing: 1px;
+                        text-align: center;
+                    }
+                    hr {
+                        margin: 2rem auto;
+                        width: 5.5rem;
+                        height: 0rem;
+                        border: 0.16rem solid #af0d21;
+                    }
+                }
+                :global {
+                    .swiper {
+                        padding-bottom: 4rem;
+                    }
+                    .swiper-slide {
+                        width: 100%;
+                        height: auto;
+                        background-color: #ffffff;
+                    }
+                    .swiper-pagination-bullets .swiper-pagination-bullet,
+                    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+                        margin: 0.63rem;
+                    }
+                    .swiper-pagination-bullet {
+                        width: 0.63rem;
+                        height: 0.63rem;
+                        background: transparent;
+                        border: 0.06rem solid #104391;
+                    }
+                    .swiper-pagination-bullet-active {
+                        width: 0.63rem;
+                        height: 0.63rem;
+                        background: #104391;
+                    }
+                }
+                .card {
+                    .list + .list {
+                        margin-top: 2.5rem;
+                    }
+                    .list {
+                        display: flex;
+                        .serial {
+                            margin-right: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 2rem;
+                            color: #af0d21;
+                            line-height: 2.93rem;
+                            letter-spacing: 3px;
+                        }
+                        .list_body {
+                            h3 {
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.5rem;
+                                color: #010811;
+                                line-height: 1.76rem;
+                                letter-spacing: 1px;
+                            }
+                            p {
+                                margin-top: 0.63rem;
+                                font-family: Microsoft YaHei UI, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #0f1d2e;
+                                line-height: 1.5rem;
+                                letter-spacing: 1px;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

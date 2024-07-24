@@ -1,11 +1,12 @@
 import React from 'react'
+import ClassItem from './classItem/classItem'
 
-function Page() {
+function ClassSet() {
   return (
-    <div>
-
-    </div>
+    <>
+      <ClassItem></ClassItem>
+    </>
   )
 }
 
-export default Page
+export default ClassSet
