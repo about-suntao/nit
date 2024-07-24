@@ -1,10 +1,11 @@
 import React from 'react'
+import NewsList from './newsList/newsList'
 
 function Page() {
   return (
-    <div>
-
-    </div>
+    <>
+      <NewsList></NewsList>
+    </>
   )
 }
 
