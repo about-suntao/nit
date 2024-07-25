@@ -2,7 +2,8 @@ import { encryptData, decryptData } from '@/utils/crypto'
 import getToken from './getToken'
 
 const fetchRequest = {
-    baseUrl: 'http://192.168.111.87:8082',
+    // baseUrl: 'http://192.168.111.87:8082',
+    baseUrl: 'http://back.nit-alevel.org',
 
     get: (url: string, params?: any) => {
         const searchParams = params ? new URLSearchParams(params).toString() : ''
