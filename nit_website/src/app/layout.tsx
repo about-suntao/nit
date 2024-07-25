@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   title: '浙大宁波理工学院经理学院国际课程中心',
   description: '浙大宁波理工学院经理学院国际课程中心',
   icons: {
-    icon: 'https://icon-zhuhai.oss-cn-hangzhou.aliyuncs.com/2024/07/10/938_favicon.png',
-    shortcut: 'https://icon-zhuhai.oss-cn-hangzhou.aliyuncs.com/2024/07/10/938_favicon.png',
-    apple: 'https://icon-zhuhai.oss-cn-hangzhou.aliyuncs.com/2024/07/10/938_favicon.png',
+    icon: 'https://icon-nb.oss-cn-hangzhou.aliyuncs.com/2024/07/25/993_deb5895103b337151b44270a2a10363.png',
+    shortcut: 'https://icon-nb.oss-cn-hangzhou.aliyuncs.com/2024/07/25/993_deb5895103b337151b44270a2a10363.png',
+    apple: 'https://icon-nb.oss-cn-hangzhou.aliyuncs.com/2024/07/25/993_deb5895103b337151b44270a2a10363.png',
     other: {
-      rel: 'https://icon-zhuhai.oss-cn-hangzhou.aliyuncs.com/2024/07/10/938_favicon.png',
-      url: 'https://icon-zhuhai.oss-cn-hangzhou.aliyuncs.com/2024/07/10/938_favicon.png',
+      rel: 'https://icon-nb.oss-cn-hangzhou.aliyuncs.com/2024/07/25/993_deb5895103b337151b44270a2a10363.png',
+      url: 'https://icon-nb.oss-cn-hangzhou.aliyuncs.com/2024/07/25/993_deb5895103b337151b44270a2a10363.png',
     },
   },
 }
