@@ -25,28 +25,26 @@
                 justify-content: center;
                 align-items: center;
                 .content {
-                    width: 84rem;
+                    width: 86rem;
                     .title {
-                        display: flex;
-                        align-items: center;
                         h1 {
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
                             font-size: 4rem;
                             color: #ffffff;
-                            line-height: 4.69rem;
+                            line-height: 4rem;
                             letter-spacing: 5px;
-                            text-align: left;
+                            text-align: center;
                         }
                         p {
-                            margin-left: 2.5rem;
+                            margin-top: 1.25rem;
                             font-family: Abhaya Libre, sans-serif;
                             font-weight: 400;
                             font-size: 2.5rem;
                             color: #ffffff;
-                            line-height: 4rem;
+                            line-height: 3rem;
                             letter-spacing: 3px;
-                            text-align: justified;
+                            text-align: center;
                         }
                     }
                     .introduce {
@@ -96,30 +94,28 @@
                 .content {
                     width: 90%;
                     .title {
-                        display: flex;
-                        align-items: center;
                         h1 {
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
                             font-size: 4rem;
                             color: #ffffff;
-                            line-height: 4.69rem;
+                            line-height: 4rem;
                             letter-spacing: 5px;
-                            text-align: left;
+                            text-align: center;
                         }
                         p {
-                            margin-left: 2.5rem;
+                            margin-top: 1.25rem;
                             font-family: Abhaya Libre, sans-serif;
                             font-weight: 400;
                             font-size: 2.5rem;
                             color: #ffffff;
-                            line-height: 4rem;
+                            line-height: 3rem;
                             letter-spacing: 3px;
-                            text-align: justify;
+                            text-align: center;
                         }
                     }
                     .introduce {
-                        margin-top: 2.5rem;
+                        margin-top: 2rem;
                         p {
                             font-family: Microsoft YaHei UI, sans-serif;
                             font-weight: 400;
@@ -165,30 +161,28 @@
                 .content {
                     width: 90%;
                     .title {
-                        display: flex;
-                        align-items: center;
                         h1 {
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
                             font-size: 3rem;
                             color: #ffffff;
-                            line-height: 4rem;
+                            line-height: 3rem;
                             letter-spacing: 4px;
-                            text-align: left;
+                            text-align: center;
                         }
                         p {
-                            margin-left: 2.5rem;
+                            margin-top: 1rem;
                             font-family: Abhaya Libre, sans-serif;
                             font-weight: 400;
                             font-size: 2rem;
                             color: #ffffff;
-                            line-height: 3rem;
+                            line-height: 2rem;
                             letter-spacing: 2px;
-                            text-align: justify;
+                            text-align: center;
                         }
                     }
                     .introduce {
-                        margin-top: 2.5rem;
+                        margin-top: 1.5rem;
                         p {
                             font-family: Microsoft YaHei UI, sans-serif;
                             font-weight: 400;
@@ -213,6 +207,7 @@
         .container {
             width: 100%;
             height: 25rem;
+            min-height: 25rem;
             position: relative;
             .backImg {
                 width: 100%;
@@ -255,11 +250,11 @@
                         }
                     }
                     .introduce {
-                        margin-top: 2rem;
+                        margin-top: 2rem 0;
                         p {
                             font-family: Microsoft YaHei UI, sans-serif;
                             font-weight: 400;
-                            font-size: 1.1rem;
+                            font-size: 1rem;
                             color: #ffffff;
                             line-height: 2rem;
                             letter-spacing: 1px;
