@@ -53,7 +53,7 @@ function Header() {
       ]
     },
     {
-      label: (<Link href="/team">师资团队</Link>),
+      label: '师资团队',
       key: '/team',
     }, {
       label: (<Link href="/commonProblem">常见问题</Link>),
@@ -68,7 +68,7 @@ function Header() {
       key: '/apply',
       children: [
         {
-          label: (<a onClick={() => openNewWindow('')}>招生简章</a>),
+          label: (<Link href="https://icon-nb.oss-cn-hangzhou.aliyuncs.com/2024/07/25/501_2024 A-Level名校留学项目-宁波.pdf" target="_blank">招生简章</Link>),
           key: 'apply',
         }, {
           label: (<Link href="/apply/way">报名方式</Link>),

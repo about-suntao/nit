@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react'
 import styles from './newsList.module.scss'
 import fetchRequest from '@/utils/fetchRequest'
 
-import { SearchOutlined } from '@ant-design/icons';
 import { Input } from 'antd';
 
 import { useRouter } from 'next/navigation'
@@ -12,7 +11,7 @@ import { useRouter } from 'next/navigation'
 import ListComponent from './list/list';
 import Article from './article/article';
 
-function NewsList() {
+function NewsList({ articleId }: { articleId?: number }) {
 
   const router = useRouter()
   const { Search } = Input;
@@ -38,14 +37,24 @@ function NewsList() {
 
   const handleView = (id: number) => {
     if (id) {
-      setActiveId(id)
-      setIsDetail(true)
+      router.push(`/news/${id}`)
     }
+  }
+
+  const backList = () => {
+    router.push(`/news`)
   }
 
   useEffect(() => {
     getHotList()
   }, []);
+
+  useEffect(() => {
+    if (articleId) {
+      setIsDetail(true)
+      setActiveId(articleId)
+    }
+  }, [articleId]);
 
   // 确保获取数据后再加载
   if (!dataLoaded) {
@@ -57,20 +66,27 @@ function NewsList() {
       <div className={styles.container}>
         <div className={styles.list}>
           {
-            isDetail ? <Article id={activeId} backList={() => setIsDetail(false)} handleView={handleView}></Article> :
+            isDetail ? <Article id={activeId} backList={() => backList()} handleView={handleView}></Article> :
               <ListComponent inputValue={inputValue} handleView={handleView}></ListComponent>
           }
         </div>
         <div className={styles.other}>
-          <div className={styles.title}>
-            <div className={styles.title_name}>
-              <p>搜索</p>
-            </div>
-            <hr />
-          </div>
-          <div className={styles.search}>
-            <Search placeholder="" onSearch={onSearch} enterButton allowClear />
-          </div>
+          {
+            !articleId &&
+            (
+              <div>
+                <div className={styles.title}>
+                  <div className={styles.title_name}>
+                    <p>搜索</p>
+                  </div>
+                  <hr />
+                </div>
+                <div className={styles.search}>
+                  <Search placeholder="" onSearch={onSearch} enterButton allowClear />
+                </div>
+              </div>
+            )
+          }
           <div className={styles.title}>
             <div className={styles.title_name}>
               <p>其他热门文章</p>

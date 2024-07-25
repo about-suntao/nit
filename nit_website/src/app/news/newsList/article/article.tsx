@@ -16,8 +16,6 @@ function Article({ id = null, backList = () => { }, handleView }: any) {
     setData(res.data)
     const res1: any = await fetchRequest.get(`/icon/web/news/queryUpAndDown`, { id: id });
     setNextData(res1.data)
-    console.log("🚀 ~ getData ~ res1.data:", res1.data.iconNewNextVo.nextId)
-
   }
 
   useEffect(() => {

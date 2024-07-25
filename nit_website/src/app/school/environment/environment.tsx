@@ -1,38 +1,29 @@
-import React from 'react'
+'use client'
+import React, { useState, useEffect } from 'react'
 import styles from './environment.module.scss'
 import Image from 'next/image'
-
-import picture1 from '../../../../public/img/school/school.webp'
+import fetchRequest from '@/utils/fetchRequest'
 
 function Environment() {
 
-  const data = [
-    {
-      id: 1,
-      name: '学院楼',
-      picture: picture1
-    }, {
-      id: 2,
-      name: '学院楼',
-      picture: picture1
-    }, {
-      id: 3,
-      name: '学院楼',
-      picture: picture1
-    }, {
-      id: 4,
-      name: '学院楼',
-      picture: picture1
-    }, {
-      id: 5,
-      name: '学院楼',
-      picture: picture1
-    }, {
-      id: 6,
-      name: '学院楼',
-      picture: picture1
-    },
-  ]
+  const [data, setData] = useState<any>([])
+  const [dataLoaded, setDataLoaded] = useState<boolean>(false); // 新增状态
+
+  const getData = async () => {
+    const res = await fetchRequest.get('/icon/web/surroundings/queryAll');
+    setDataLoaded(true); // 设置数据已加载
+    setData(res.data)
+  }
+
+  useEffect(() => {
+    getData()
+  }, []);
+
+
+  // 确保获取数据后再加载
+  if (!dataLoaded) {
+    return null;
+  }
   return (
     <section className={styles.pages}>
       <div className={styles.container}>
@@ -45,7 +36,7 @@ function Environment() {
             data.map((item: any) => {
               return (
                 <li key={item.id}>
-                  {item.picture && <Image src={item.picture} alt=''></Image>}
+                  {item.img && <Image src={item.img} alt='' width={600} height={500} priority></Image>}
                   <div className={styles.name}>
                     <p>{item.name}</p>
                   </div>
