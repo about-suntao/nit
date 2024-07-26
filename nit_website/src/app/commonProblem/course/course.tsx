@@ -13,39 +13,39 @@ function Course() {
     {
       id: 1,
       title: '数学',
-      titleEn: 'MATHEMATICS'
+      titleEn: 'Mathematics'
     }, {
       id: 2,
       title: '进阶数学',
-      titleEn: 'FURTHER MATHEMATICS'
+      titleEn: 'Further Mathematics'
     }, {
       id: 3,
       title: '物理',
-      titleEn: 'PHYSICS'
+      titleEn: 'Physics'
     }, {
       id: 4,
       title: '化学',
-      titleEn: 'CHEMISTRY'
+      titleEn: 'Chemistry'
     }, {
       id: 5,
       title: '生物',
-      titleEn: 'BIOLOGY'
+      titleEn: 'Biology'
     }, {
       id: 6,
       title: '经济',
-      titleEn: 'ECONOMICS'
+      titleEn: 'Economics'
     }, {
       id: 7,
       title: '商务',
-      titleEn: 'BUSINESS'
+      titleEn: 'Business'
     }, {
       id: 8,
       title: '会计',
-      titleEn: 'ACCOUNTING'
+      titleEn: 'Accounting'
     }, {
       id: 9,
       title: '艺术课程',
-      titleEn: 'ART&DESIGN'
+      titleEn: 'Art&Design'
     },
   ]
 
@@ -54,7 +54,7 @@ function Course() {
       <div className={styles.container}>
         <div className={styles.title}>
           <h2>常规课程</h2>
-          <p>TEACHING MANAGEMENT SYSTEM</p>
+          <p>Regular Courses</p>
         </div>
         <ul>
           {

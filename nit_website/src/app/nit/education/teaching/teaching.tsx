@@ -47,7 +47,7 @@ function Teaching() {
         <div className={styles.right}>
           <div className={styles.title}>
             <h2>教学管理体系</h2>
-            <p>TEACHING MANAGEMENT SYSTEM</p>
+            <p>Teaching Management System</p>
             <hr />
           </div>
           <Swiper

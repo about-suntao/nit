@@ -68,7 +68,7 @@ function Header() {
       key: '/apply',
       children: [
         {
-          label: (<Link href="https://icon-nb.oss-cn-hangzhou.aliyuncs.com/2024/07/25/501_2024 A-Level名校留学项目-宁波.pdf" target="_blank">招生简章</Link>),
+          label: (<Link href="https://icon-bit.oss-cn-hangzhou.aliyuncs.com/2024/07/26/793_dawfawgegs.pdf" target="_blank">招生简章</Link>),
           key: 'apply',
         }, {
           label: (<Link href="/apply/way">报名方式</Link>),
