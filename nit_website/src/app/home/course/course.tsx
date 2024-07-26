@@ -34,7 +34,7 @@ function Course() {
       <div className={styles.container}>
         <div className={styles.title}>
           <h2>NIT国际课程</h2>
-          <p>International curriculum</p>
+          <p>International Curriculum</p>
         </div>
         <Swiper
           slidesPerView={2}
@@ -65,7 +65,7 @@ function Course() {
       <div className={styles.mobile}>
         <div className={styles.title}>
           <h2>NIT国际课程</h2>
-          <p>International curriculum</p>
+          <p>International Curriculum</p>
         </div>
         <Swiper
           slidesPerView={1}

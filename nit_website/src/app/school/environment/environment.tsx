@@ -29,7 +29,7 @@ function Environment() {
       <div className={styles.container}>
         <div className={styles.title}>
           <h2>学校环境</h2>
-          <p>School environment</p>
+          <p>School Environment</p>
         </div>
         <ul>
           {

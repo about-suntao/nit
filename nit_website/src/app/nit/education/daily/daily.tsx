@@ -48,7 +48,7 @@ function Daily() {
           <div className={styles.left}>
             <div className={styles.title}>
               <h2>日常管理</h2>
-              <p>Daily management</p>
+              <p>Daily Management</p>
               <hr />
             </div>
             <ul>

@@ -11,7 +11,7 @@ function About() {
         <div className={styles.left}>
           <div className={styles.title}>
             <h2>关于A-Level</h2>
-            <p>About A-levels</p>
+            <p>About A-Level</p>
           </div>
           <div className={styles.desc}>
             <p>A-Level名校留学项目自创办以来,不断地调整、优化,先后培养了百余名优秀学子,顺利前往英国牛津大学、帝国理工大学、伦敦政治经济学院、新加坡国立大学、南洋理工大学、香港大学、澳门大学、墨尔本大学等QS排名靠前的世界一流名校留学。本项目定点在浙大宁波理工学院定点培养1-2年,学生在校期间与统招生同享一流高校资源,提前体验大学的教学环境,感受浙大宁波理工学院前沿的学术氛围,提升自身综合能力的同时奠定国际教育适应基础,为未来顺利进入海外大学留学做好准备。</p>

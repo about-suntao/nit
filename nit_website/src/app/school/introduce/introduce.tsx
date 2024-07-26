@@ -11,7 +11,7 @@ function Introduce() {
         <div className={styles.content}>
           <div className={styles.title}>
             <h2>浙大宁波理工学院经理学院</h2>
-            <p>Ningbo Managers’Academy</p>
+            <p>Ningbo Managers’ Academy</p>
           </div>
           <div className={styles.introduce}>
             <p>宁波经理学院是专门从事企业经营管理人才和党政干部培训的独立法人教育机构。学院2006年由市委组织部联合浙大宁波理工学院发起，2009年正式挂牌宁波经理学院；2019年宁波市国资委委托通商集团出资正式注册，2023年转隶至人才集团。</p>

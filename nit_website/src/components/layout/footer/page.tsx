@@ -21,7 +21,7 @@ function Footer() {
         <div className={styles.contact}>
           <div className={styles.title}>
             <h2>联系方式</h2>
-            <p>Contact us</p>
+            <p>Contact Us</p>
           </div>
           <div className={styles.line}></div>
           <ul>
@@ -42,7 +42,7 @@ function Footer() {
         <div className={styles.code}>
           <div className={styles.title}>
             <h2>扫码关注</h2>
-            <p>Scan code attention</p>
+            <p>Scan Code Attention</p>
           </div>
           <div className={styles.line}></div>
           <div className={styles.qr}>
