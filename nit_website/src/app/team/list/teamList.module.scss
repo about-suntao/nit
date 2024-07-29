@@ -1,0 +1,274 @@
+@media screen and (min-width: 1301px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        .container {
+            margin: 6.25rem 0;
+            width: 75rem;
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 3rem 0;
+                li {
+                    width: 48%;
+                    min-height: 15rem;
+                    display: flex;
+                    padding: 0.81rem 1.13rem;
+                    background: #ffffff;
+                    box-shadow: 0rem 0rem 0.34rem 0rem rgba(19, 1, 4, 0.17);
+                    border-radius: 0.13rem 0.13rem 0.13rem 0.13rem;
+                    .picture {
+                        img {
+                            width: 14.38rem;
+                            height: auto;
+                        }
+                    }
+                    .introduce {
+                        margin-left: 1.25rem;
+                        h3 {
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.5rem;
+                            color: #140104;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                        }
+                        .desc {
+                            margin: 1rem 0;
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 1rem;
+                            color: #311116;
+                            line-height: 1.4rem;
+                            letter-spacing: 1px;
+                        }
+                        .list {
+                            margin-top: 0.63rem;
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 1rem;
+                            color: #140104;
+                            line-height: 1.4rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                            span {
+                                font-weight: bold;
+                                font-size: 0.88rem;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        .container {
+            margin: 6rem 0;
+            width: 90%;
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 3rem 0;
+                li {
+                    width: 48%;
+                    min-height: 15rem;
+                    display: flex;
+                    padding: 0.81rem 1.13rem;
+                    background: #ffffff;
+                    box-shadow: 0rem 0rem 0.34rem 0rem rgba(19, 1, 4, 0.17);
+                    border-radius: 0.13rem;
+                    .picture {
+                        img {
+                            width: 14rem;
+                            height: auto;
+                        }
+                    }
+                    .introduce {
+                        margin-left: 1.25rem;
+                        h3 {
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.25rem;
+                            color: #140104;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                        }
+                        .desc {
+                            margin: 1rem 0;
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.88rem;
+                            color: #311116;
+                            line-height: 1.4rem;
+                            letter-spacing: 1px;
+                        }
+                        .list {
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.85rem;
+                            color: #140104;
+                            line-height: 1.4rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                            span {
+                                font-weight: bold;
+                                font-size: 0.88rem;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        .container {
+            margin: 5rem 0;
+            width: 90%;
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 3rem 0;
+                li {
+                    width: 100%;
+                    min-height: 15rem;
+                    display: flex;
+                    align-items: center;
+                    padding: 0.81rem 1.13rem;
+                    background: #ffffff;
+                    box-shadow: 0rem 0rem 0.34rem 0rem rgba(19, 1, 4, 0.17);
+                    border-radius: 0.13rem;
+                    .picture {
+                        img {
+                            width: 12rem;
+                            height: auto;
+                        }
+                    }
+                    .introduce {
+                        margin-left: 1.25rem;
+                        h3 {
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.25rem;
+                            color: #140104;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                        }
+                        .desc {
+                            margin: 1rem 0;
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.88rem;
+                            color: #311116;
+                            line-height: 1.4rem;
+                            letter-spacing: 1px;
+                        }
+                        .list {
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.85rem;
+                            color: #140104;
+                            line-height: 1.4rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                            span {
+                                font-weight: bold;
+                                font-size: 0.88rem;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        .container {
+            margin: 4rem 0;
+            width: 90%;
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 3rem 0;
+                li {
+                    width: 100%;
+                    min-height: 15rem;
+                    display: flex;
+                    align-items: center;
+                    padding: 0.81rem 1.13rem;
+                    background: #ffffff;
+                    box-shadow: 0rem 0rem 0.34rem 0rem rgba(19, 1, 4, 0.17);
+                    border-radius: 0.13rem;
+                    .picture {
+                        img {
+                            width: 11rem;
+                            height: auto;
+                        }
+                    }
+                    .introduce {
+                        margin-left: 1.25rem;
+                        h3 {
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.25rem;
+                            color: #140104;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                        }
+                        .desc {
+                            margin: 1rem 0;
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.88rem;
+                            color: #311116;
+                            line-height: 1.4rem;
+                            letter-spacing: 1px;
+                        }
+                        .list {
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.85rem;
+                            color: #140104;
+                            line-height: 1.4rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                            span {
+                                font-weight: bold;
+                                font-size: 0.88rem;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

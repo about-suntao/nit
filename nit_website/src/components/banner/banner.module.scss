@@ -206,10 +206,11 @@
         align-items: center;
         .container {
             width: 100%;
-            height: 25rem;
-            min-height: 25rem;
             position: relative;
             .backImg {
+                position: absolute;
+                left: 0;
+                top: 0;
                 width: 100%;
                 height: 100%;
                 img {
@@ -218,14 +219,14 @@
                 }
             }
             .banner {
-                position: absolute;
-                left: 0;
-                top: 0;
                 width: 100%;
                 height: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                position: relative;
+                z-index: 100;
+                padding: 3rem 0;
                 .content {
                     width: 90%;
                     .title {
