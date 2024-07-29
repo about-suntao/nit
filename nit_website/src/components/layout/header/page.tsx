@@ -53,7 +53,7 @@ function Header() {
       ]
     },
     {
-      label: '师资团队',
+      label: (<Link href="/team">师资团队</Link>),
       key: '/team',
     }, {
       label: (<Link href="/commonProblem">常见问题</Link>),
