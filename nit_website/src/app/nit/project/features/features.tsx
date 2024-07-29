@@ -17,7 +17,7 @@ function Features() {
       title: '科学规划 悉心指导 全周期留学方案制定',
     }, {
       id: 3,
-      title: '浙大宁波理工学院资质设立专项A-level考点',
+      title: '浙大宁波理工学院资质设立专项A-Level考点',
     }, {
       id: 4,
       title: '学术英语课程 快速提升语言成绩',

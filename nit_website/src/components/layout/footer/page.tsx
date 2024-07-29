@@ -42,7 +42,7 @@ function Footer() {
         <div className={styles.code}>
           <div className={styles.title}>
             <h2>扫码关注</h2>
-            <p>Scan Code Attention</p>
+            <p>Follow Us</p>
           </div>
           <div className={styles.line}></div>
           <div className={styles.qr}>
