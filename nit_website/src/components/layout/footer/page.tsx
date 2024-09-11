@@ -27,7 +27,7 @@ function Footer() {
           <ul>
             <li>
               <Image src={phoneImg} alt=''></Image>
-              <p>0574-88220980 / 0574-87057120</p>
+              <p>0574-87057120</p>
             </li>
             <li>
               <Image src={locationImg} alt=''></Image>

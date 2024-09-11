@@ -17,8 +17,8 @@
             .logoImg {
                 color: white;
                 img {
-                    width: 6rem;
-                    height: auto;
+                    width: 4.69rem;
+                    height: 4.69rem;
                 }
             }
             .menu {
@@ -310,11 +310,7 @@
                         border-bottom: none;
                         height: 6.25rem;
                     }
-                    .ant-menu-submenu-title {
-                        height: 6.25rem;
-                        display: flex;
-                        align-items: center;
-                    }
+
                     .ant-menu-title-content {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: bold;
@@ -323,6 +319,14 @@
                         line-height: 1.8rem;
                         letter-spacing: 1px;
                         text-align: justify;
+                    }
+                    .ant-menu-submenu-title {
+                        height: 6.25rem;
+                        display: flex;
+                        align-items: center;
+                        .ant-menu-title-content {
+                            letter-spacing: 0;
+                        }
                     }
                     .ant-menu-light {
                         background-color: transparent;
@@ -361,7 +365,7 @@
                     display: flex;
                     list-style: none;
                     li {
-                        width: 6.5rem;
+                        width: 7rem;
                         display: flex;
                         justify-content: center;
                         align-items: center;
