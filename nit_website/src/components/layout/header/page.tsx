@@ -37,18 +37,18 @@ function Header() {
       key: '/school',
     },
     {
-      label: 'NIT国际课程',
-      key: '/nit',
+      label: 'NMA国际课程',
+      key: '/nma',
       children: [
         {
-          label: (<Link href="/nit/project">项目简介</Link>),
-          key: '/nit/project',
+          label: (<Link href="/nma/project">项目简介</Link>),
+          key: '/nma/project',
         }, {
-          label: (<Link href="/nit/class">班型设置</Link>),
-          key: '/nit/class',
+          label: (<Link href="/nma/class">班型设置</Link>),
+          key: '/nma/class',
         }, {
-          label: (<Link href="/nit/education">教育管理</Link>),
-          key: '/nit/education',
+          label: (<Link href="/nma/education">教育管理</Link>),
+          key: '/nma/education',
         },
       ]
     },

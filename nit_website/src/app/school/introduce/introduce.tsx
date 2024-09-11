@@ -10,7 +10,7 @@ function Introduce() {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.title}>
-            <h2>浙大宁波理工学院经理学院</h2>
+            <h2>宁波经理学院</h2>
             <p>Ningbo Managers’ Academy</p>
           </div>
           <div className={styles.introduce}>

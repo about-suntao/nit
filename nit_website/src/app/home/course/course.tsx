@@ -33,7 +33,7 @@ function Course() {
     <section className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h2>NIT国际课程</h2>
+          <h2>NMA国际课程</h2>
           <p>International Curriculum</p>
         </div>
         <Swiper

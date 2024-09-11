@@ -20,6 +20,7 @@ function Banner() {
 
   const getData = async () => {
     const res = await fetchRequest.get('/icon/web/slideshow/queryAll');
+    console.log(res)
     setDataLoaded(true); // 设置数据已加载
     setData(res.data)
   }
